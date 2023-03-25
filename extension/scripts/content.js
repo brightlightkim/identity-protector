@@ -479,7 +479,7 @@ window.onload = function () {
 
   // If the bad_words_length is more than 1
   if (bad_words_length > 0) {
-
+    
     let bad_words_percentage =
       ((bad_words_length / words_list.length) * 100).toFixed(2) + "%";
 
@@ -489,25 +489,25 @@ window.onload = function () {
     }
 
     var title = document.createElement("div");
-    title.className = "title";
+    title.className = "title12345";
     title.textContent = "Warning!!!";
 
     var warning = document.createElement("div");
-    warning.className = "warning";
+    warning.className = "warning12345";
     warning.textContent =
       "This webpage contains abusive content. (Abusive Words Percentage: " +
       bad_words_percentage +
       ")";
 
     var message = document.createElement("div");
-    message.className = "message";
+    message.className = "message12345";
     message.textContent = "Remember Who You Are!";
 
     var supporting_message = document.createElement("div");
     supporting_message.style.margin = "10px";
     supporting_message.textContent =
       "You are worth more than this. If you need support, please reach out to a trusted friend, family member, or mental health professional.";
-    
+
     body.appendChild(title);
     body.appendChild(warning);
     body.appendChild(message);
