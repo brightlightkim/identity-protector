@@ -479,7 +479,6 @@ window.onload = function () {
 
   // If the bad_words_length is more than 1
   if (bad_words_length > 0) {
-    
     let bad_words_percentage =
       ((bad_words_length / words_list.length) * 100).toFixed(2) + "%";
 
@@ -495,7 +494,9 @@ window.onload = function () {
     var warning = document.createElement("div");
     warning.className = "warning12345";
     warning.textContent =
-      "This webpage contains abusive content. (Abusive Words Percentage: " +
+      "This webpage contains abusive content. (Abusive Words Count: " +
+      bad_words_length +
+      ", Abusive Words Percentage: " +
       bad_words_percentage +
       ")";
 
