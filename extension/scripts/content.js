@@ -479,6 +479,7 @@ window.onload = function () {
 
   // If the bad_words_length is more than 1
   if (bad_words_length > 0) {
+
     let bad_words_percentage =
       ((bad_words_length / words_list.length) * 100).toFixed(2) + "%";
 
@@ -513,7 +514,7 @@ window.onload = function () {
     supporting_message.style.margin = "10px";
     supporting_message.textContent =
       "You are worth more than this. If you need support, please reach out to a trusted friend, family member, or mental health professional.";
-
+    
     body.appendChild(title);
     body.appendChild(warning);
     body.appendChild(message);

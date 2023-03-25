@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+}
+
+div {
+    margin: 10px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+.warning {
+    color: red;
+}
+
+.message {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1E90FF;
+}
