@@ -489,25 +489,18 @@ window.onload = function () {
     }
 
     var title = document.createElement("div");
-    title.style.fontSize = "20px";
-    title.style.fontWeight = "bold";
-    title.style.margin = "10px";
-    title.style.color = "red";
+    title.className = "title";
     title.textContent = "Warning!!!";
 
     var warning = document.createElement("div");
-    warning.style.margin = "10px";
-    warning.style.color = "red";
+    warning.className = "warning";
     warning.textContent =
       "This webpage contains abusive content. (Abusive Words Percentage: " +
       bad_words_percentage +
       ")";
 
     var message = document.createElement("div");
-    message.style.fontSize = "20px";
-    message.style.fontWeight = "bold";
-    message.style.margin = "10px";
-    message.style.color = "#1E90FF";
+    message.className = "message";
     message.textContent = "Remember Who You Are!";
 
     var supporting_message = document.createElement("div");
