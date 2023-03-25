@@ -1,0 +1,17 @@
+{
+  "name": "Identity Protector",
+  "version": "1.0.0",
+  "description": "Protect you from harmful web using machine learning",
+  "manifest_version": 3,
+  "icons": {
+    "16": "images/logo.png",
+    "48": "images/logo.png",
+    "128": "images/logo.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
